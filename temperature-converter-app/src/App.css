@@ -1,0 +1,39 @@
+.temperature-sticker {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Center content and distribute space */
+  border: 2px solid #4caf50; /* Green border */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px; /* Adjust maximum width as needed */
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.thermometer-animation {
+  max-width: 200px; /* Adjust size as needed */
+}
+
+.temperature-input-output {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature-input-output input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.temperature-input-output p {
+  font-size: 18px;
+  margin: 0;
+}
